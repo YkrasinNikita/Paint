@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = OurPaint
-build_property.ProjectDir = C:\Users\nikit\OneDrive\Desktop\OurPaint\OurPaint\
+build_property.ProjectDir = C:\Users\nikit\OneDrive\Desktop\Paint\OurPaint\OurPaint\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

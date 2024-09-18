@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nikit\\OneDrive\\Desktop\\OurPaint\\OurPaint\\OurPaint.csproj": {}
+    "C:\\Users\\nikit\\OneDrive\\Desktop\\Paint\\OurPaint\\OurPaint\\OurPaint.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nikit\\OneDrive\\Desktop\\OurPaint\\OurPaint\\OurPaint.csproj": {
+    "C:\\Users\\nikit\\OneDrive\\Desktop\\Paint\\OurPaint\\OurPaint\\OurPaint.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nikit\\OneDrive\\Desktop\\OurPaint\\OurPaint\\OurPaint.csproj",
+        "projectUniqueName": "C:\\Users\\nikit\\OneDrive\\Desktop\\Paint\\OurPaint\\OurPaint\\OurPaint.csproj",
         "projectName": "OurPaint",
-        "projectPath": "C:\\Users\\nikit\\OneDrive\\Desktop\\OurPaint\\OurPaint\\OurPaint.csproj",
+        "projectPath": "C:\\Users\\nikit\\OneDrive\\Desktop\\Paint\\OurPaint\\OurPaint\\OurPaint.csproj",
         "packagesPath": "C:\\Users\\nikit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nikit\\OneDrive\\Desktop\\OurPaint\\OurPaint\\obj\\",
+        "outputPath": "C:\\Users\\nikit\\OneDrive\\Desktop\\Paint\\OurPaint\\OurPaint\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nikit\\AppData\\Roaming\\NuGet\\NuGet.Config",

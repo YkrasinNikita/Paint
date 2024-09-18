@@ -42,13 +42,14 @@
             toolStrip_New = new ToolStripMenuItem();
             toolStrip_Open = new ToolStripMenuItem();
             toolStrip_Save = new ToolStripMenuItem();
+            pictureBox1 = new PictureBox();
             panel1.SuspendLayout();
             menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // panel1
             // 
-            panel1.Anchor = AnchorStyles.Top;
             panel1.Controls.Add(btn_back);
             panel1.Controls.Add(cmb_thick);
             panel1.Controls.Add(cmb_colors);
@@ -57,16 +58,16 @@
             panel1.Controls.Add(btn_rectangle);
             panel1.Controls.Add(btn_rubber);
             panel1.Controls.Add(btn_brush);
-            panel1.Location = new Point(0, 28);
+            panel1.Location = new Point(100, -3);
             panel1.Name = "panel1";
-            panel1.Size = new Size(971, 35);
+            panel1.Size = new Size(894, 35);
             panel1.TabIndex = 0;
             // 
             // btn_back
             // 
-            btn_back.Location = new Point(874, 3);
+            btn_back.Location = new Point(830, 2);
             btn_back.Name = "btn_back";
-            btn_back.Size = new Size(85, 29);
+            btn_back.Size = new Size(53, 29);
             btn_back.TabIndex = 7;
             btn_back.Text = "<-";
             btn_back.UseVisualStyleBackColor = true;
@@ -76,7 +77,7 @@
             cmb_thick.FormattingEnabled = true;
             cmb_thick.Location = new Point(717, 3);
             cmb_thick.Name = "cmb_thick";
-            cmb_thick.Size = new Size(151, 28);
+            cmb_thick.Size = new Size(107, 28);
             cmb_thick.TabIndex = 6;
             // 
             // cmb_colors
@@ -138,7 +139,7 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { toolStrip_File });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(971, 28);
+            menuStrip1.Size = new Size(994, 28);
             menuStrip1.TabIndex = 1;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -167,11 +168,24 @@
             toolStrip_Save.Size = new Size(166, 26);
             toolStrip_Save.Text = "Сохранить";
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Dock = DockStyle.Fill;
+            pictureBox1.Location = new Point(0, 28);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(994, 397);
+            pictureBox1.TabIndex = 2;
+            pictureBox1.TabStop = false;
+            pictureBox1.MouseDown += pictureBox1_MouseDown;
+            pictureBox1.MouseMove += pictureBox1_MouseMove;
+            pictureBox1.MouseUp += pictureBox1_MouseUp;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(971, 544);
+            ClientSize = new Size(994, 425);
+            Controls.Add(pictureBox1);
             Controls.Add(panel1);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
@@ -180,6 +194,7 @@
             panel1.ResumeLayout(false);
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -200,5 +215,6 @@
         private ToolStripMenuItem toolStrip_New;
         private ToolStripMenuItem toolStrip_Open;
         private ToolStripMenuItem toolStrip_Save;
+        private PictureBox pictureBox1;
     }
 }
